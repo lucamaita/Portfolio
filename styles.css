@@ -77,8 +77,8 @@ p {
   opacity: 0.1;
   pointer-events: none;
   background: 
-    repeating-radial-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 0/25vw 25vw,
-    repeating-conic-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 50%/25vw 25vw;
+    repeating-radial-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 0/100px 100px,
+    repeating-conic-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 50%/100px 100px;
   background-blend-mode: difference;
   animation: shift .2s infinite alternate;
 }
