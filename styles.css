@@ -66,7 +66,6 @@ p {
   animation-iteration-count: infinite;
 }
 
-/* noise solution based on Temani Afif https://codepen.io/t_afif/pen/RwyqLKZ */
 .noise {
   position: fixed;
   top: 0;
@@ -77,14 +76,15 @@ p {
   opacity: 0.1;
   pointer-events: none;
   background: 
-    repeating-radial-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 0/100px 100px,
-    repeating-conic-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 50%/100px 100px;
+    repeating-radial-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 0/50px 50px,
+    repeating-conic-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 50%/50px 50px;
   background-blend-mode: difference;
-  animation: shift .2s infinite alternate;
+  animation: shift .1s infinite alternate;
 }
+
 @keyframes shift {
   100% {
-      background-position: 50% 0, 50% 60%;
+    background-position: 50% 0, 50% 30%;
   }
 }
 
