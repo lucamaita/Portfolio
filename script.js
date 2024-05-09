@@ -49,12 +49,12 @@ function typeWriter() {
     if (index < text.length) {
         outputElement.innerHTML = text.substring(0, index) + "<span id='cursor' class='cursor'>█</span>"; // Aggiorniamo il testo con il cursore
         index++;
-        var randomTime = Math.random() * 100 + 1;
+        var randomTime = Math.floor(Math.random() * 50) + 1;
         setTimeout(typeWriter, randomTime);
         window.scrollTo(0, document.body.scrollHeight);
     }
-}
 
+}
 
 window.onload = function() {
     typeWriter();
