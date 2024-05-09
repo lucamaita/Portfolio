@@ -1,4 +1,8 @@
 var text = `
+Booting up...<br>
+Initializing user interface...<br>
+Establishing network connection...<br><br>
+
 LUCA MAITA<br>
 
 Junior Java Developer<br><br>
