@@ -51,7 +51,6 @@ function typeWriter() {
     }
 }
 
-cursor.style.display = "inline-block";
 
 window.onload = function() {
     typeWriter();
